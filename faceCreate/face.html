@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/konva@7.2.3/konva.min.js"></script>
+    <link rel="stylesheet" href="face.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!-- <section class="layout">
+    <div id="female" class="human"  ><img src="../imges/femaleMain.png" alt="" width="100"></div>
+    <div id="male" class="human"><img src="../imges/maleMain.png" alt="" width="100"></div>
+  </section>  -->
+      <div class="nameinput">
+        <input
+          style="margin-top: 3px"
+          type="text"
+          autocomplete="off"
+          id="nameInput"
+          class="input"
+          placeholder="أدخل أسمك"
+        />
+      </div>
+      <!-- <select name="اختر الاشكال السابقه" id="select">
+         diynamic fill  
+      </select> -->
+      
+      <section class="layout">
+        <img
+          class="human"
+          id="female"
+          src="../imges/femaleMain.png"
+          alt="notload"
+        />
+        <img
+          class="human"
+          id="male"
+          src="../imges/maleMain.png"
+          alt="notload"
+        />
+      </section>
+
+      <div
+        id="showFaceCreate"
+        class="showFaceCreate"
+        style="display: none"
+      ></div>
+    </main>
+    <script src="face.js"></script>
+  </body>
+</html>
